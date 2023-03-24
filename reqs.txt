@@ -1,0 +1,7 @@
+gdown
+argparse
+requests
+bs4
+lxml
+pandas
+google-cloud-storage
