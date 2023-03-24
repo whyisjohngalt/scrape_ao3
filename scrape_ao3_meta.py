@@ -96,7 +96,7 @@ def get_url(id):
 def send_request_with_backoff(link):
   result = requests.get(link)
   while result.status_code == 429:
-    retry_after= int(int(result.headers['retry-after']) * (5/5)) + 5
+    retry_after= int(int(result.headers['retry-after']) * (4/5)) + 5
     print(f"429 Error, trying again in {retry_after} seconds")
     time.sleep(retry_after)
     result = requests.get(link)
