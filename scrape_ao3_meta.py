@@ -11,7 +11,7 @@ from google import auth
 
 URL_DIR = './urldir'
 STORY_META_FILENAME = './story_metas.gz'
-DELAY = 1.2 # change this to something around 1 to be nice
+DELAY = 2.1 # change this to something around 1 to be nice
 COMPRESSION_LEVEL = 8
 AUTH_FILENAME = './client_secrets.json'
  
